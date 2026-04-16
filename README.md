@@ -85,3 +85,43 @@ Uma única palavra:
 ## Código do Desafio
 O código está disponível neste repositório:  
 [Link para o desafio]()
+
+---
+
+**Desafio 3: Padronização de Nomes de Clientes**
+
+Você faz parte da equipe de transformação digital de uma consultoria que está integrando dados de diferentes sistemas legados.  
+Cada sistema armazena nomes de clientes de formas variadas: alguns usam letras maiúsculas, outros minúsculas, e há casos em que nomes vêm com espaços extras no início ou no fim.  
+Sua tarefa é criar um programa que normalize esses nomes, removendo espaços desnecessários e ajustando a capitalização de acordo com o padrão: a primeira letra de cada palavra deve ser maiúscula e as demais, minúsculas.
+
+### Regras de Negócio
+- Remover espaços extras no início e no fim
+- Garantir apenas um espaço entre palavras
+- Converter cada palavra para o formato: primeira letra maiúscula, demais minúsculas
+
+### Entrada
+Uma única linha contendo uma string representando o nome de um cliente, que pode conter letras maiúsculas ou minúsculas e espaços extras.
+
+### Saída
+Uma única linha contendo o nome do cliente formatado corretamente.
+
+### Exemplos
+| Entrada        | Saída          |
+|----------------|----------------|
+| maria da silva | Maria Da Silva |
+| JOAO PEREIRA   | Joao Pereira   |
+| ana costa      | Ana Costa      |
+| LuIz feRReira  | Luiz Ferreira  |
+
+---
+
+## Tecnologias Utilizadas
+- **Python**: implementação da lógica
+- **Manipulação de strings**: funções para remoção de espaços e ajuste de capitalização
+- **Métodos nativos (`strip`, `split`, `title`)**: para normalização dos nomes
+
+---
+
+## Código do Desafio
+O código está disponível neste repositório:  
+[Link para o desafio]()
