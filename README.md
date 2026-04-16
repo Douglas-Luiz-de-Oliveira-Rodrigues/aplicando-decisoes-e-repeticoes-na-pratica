@@ -42,3 +42,46 @@ O código está disponível neste repositório:
 [Link para o desafio]()
 
 ---
+
+**Desafio 2: Validação de Transação Bancária**
+
+Você foi contratado por uma consultoria para auxiliar uma empresa do setor financeiro a automatizar a validação de transações bancárias.  
+O sistema precisa calcular o valor final da transação (valor menos taxa) e verificar se o valor final é suficiente para cobrir um pagamento mínimo exigido pela empresa.
+
+### Regras de Negócio
+- Calcular o valor final: `valor - taxa`
+- Se o valor final ≥ pagamento mínimo → imprimir **"Aprovada"**
+- Caso contrário → imprimir **"Recusada"**
+
+### Entrada
+Três números inteiros separados por espaço:
+1. Valor da transação  
+2. Taxa de serviço  
+3. Pagamento mínimo  
+
+### Saída
+Uma única palavra:
+- **"Aprovada"** se o valor final for suficiente  
+- **"Recusada"** caso contrário  
+
+### Exemplos
+| Entrada       | Saída     |
+|---------------|-----------|
+| 100 10 80     | Aprovada  |
+| 50 20 40      | Recusada  |
+| 200 50 150    | Aprovada  |
+| 75 30 50      | Recusada  |
+
+---
+
+## Tecnologias Utilizadas
+- **Python**: implementação da lógica
+- **Operadores aritméticos**: subtração para cálculo do valor final
+- **Operadores relacionais**: comparação para validar a transação
+- **Estruturas condicionais (if/else)**: decisão de aprovação ou recusa
+
+---
+
+## Código do Desafio
+O código está disponível neste repositório:  
+[Link para o desafio]()
