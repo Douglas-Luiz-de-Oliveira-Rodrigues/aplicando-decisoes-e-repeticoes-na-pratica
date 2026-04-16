@@ -39,7 +39,7 @@ Uma única linha contendo a mensagem correspondente ao benefício aplicado.
 
 ## Código do Desafio
 O código está disponível neste repositório:  
-[Link para o desafio]()
+[Link para o desafio](https://github.com/Douglas-Luiz-de-Oliveira-Rodrigues/aplicando-decisoes-e-repeticoes-na-pratica/blob/main/desafios/promocoes_varejo.py)
 
 ---
 
@@ -84,7 +84,7 @@ Uma única palavra:
 
 ## Código do Desafio
 O código está disponível neste repositório:  
-[Link para o desafio]()
+[Link para o desafio](https://github.com/Douglas-Luiz-de-Oliveira-Rodrigues/aplicando-decisoes-e-repeticoes-na-pratica/blob/main/desafios/validacao_transacao.py)
 
 ---
 
@@ -124,4 +124,4 @@ Uma única linha contendo o nome do cliente formatado corretamente.
 
 ## Código do Desafio
 O código está disponível neste repositório:  
-[Link para o desafio]()
+[Link para o desafio](https://github.com/Douglas-Luiz-de-Oliveira-Rodrigues/aplicando-decisoes-e-repeticoes-na-pratica/blob/main/desafios/padroniza_nomes.py)
